@@ -55,19 +55,21 @@ Footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
 }
 
 Footer H2 {
-  display:inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
 footer div{
-  float: right;
   line-height: 1.5;
   text-align: right;
+ 
 }
 
 footer a { 
@@ -81,10 +83,30 @@ section {
 /* Hero Style start */
 .hero {
   background-image:url(https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg); 
-  height: 600px; 
+  
   background-position: center;
   background-size: cover;
-  position:relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.hero-cta {
+
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+
+}
+
+.hero-cta h2 {
+  font-size: 55px;
+  font-style: italic;
+  color: #fce138;
 }
 /* Hero Style End */ 
 
@@ -93,12 +115,10 @@ section {
 
   background-color: #fce138;
   color:#024e76;
-  width: 500px;
   padding: 20px;
   border: 3px solid #024e76;
-  position: absolute;
-  bottom: 120px;
-  right:140px;
+  width: 40%;
+  margin: 3.5%;
 
 }
 
